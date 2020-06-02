@@ -244,3 +244,8 @@ body{
 .register_button_right:active{
     transform: scale(0.9);
 }
+.bottom_link{
+    color: whitesmoke;
+    margin: 35% 0 0 0;
+    text-align: center;
+}

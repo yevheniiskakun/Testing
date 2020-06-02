@@ -107,7 +107,7 @@ body{
     outline: none;
     font-size: 13pt;
     margin: 0 10% 0 0;
-    color:red;
+    color:black;
     font-family: Verdana, Arial, Helvetica, sans-serif;
   }
   .edit_profile_button:hover{
@@ -121,7 +121,7 @@ body{
     outline: none;
     font-size: 13pt;
     margin: 0 10% 0 0;
-    color:black;
+    color:red;
     font-family: Verdana, Arial, Helvetica, sans-serif;
   }
   .purchases_button:hover{
@@ -183,109 +183,4 @@ body{
   .ButtonTop:active{
     transform: scale(0.95);
   }
-  .help_inscription{
-      font-size: 15pt;
-      margin: 15% 7% 0% 7%;
-  }
-
-.firstname{
-    width: 70%;
-    height: 20px;
-    border-top: none;
-    border-left: none;
-    border-right: none;
-    border-bottom: 1px solid #4A34D4;
-    background-color:whitesmoke;
-    outline: none;
-    margin: 9pt 0 0 0;
-    font-size: 12pt;
-}
-.lastname{
-    width: 70%;
-    height: 20px;
-    border-top: none;
-    border-left: none;
-    border-right: none;
-    border-bottom: 1px solid #4A34D4;
-    background-color:whitesmoke;
-    outline: none;
-    margin: 9pt 0 0 0;
-    font-size: 12pt;
-}
-.middlename{
-    width: 70%;
-    height: 20px;
-    border-top: none;
-    border-left: none;
-    border-right: none;
-    border-bottom: 1px solid #4A34D4;
-    background-color:whitesmoke;
-    outline: none;
-    margin: 9pt 0 0 0;
-    font-size: 12pt;
-}
-.email{
-    width: 70%;
-    height: 20px;
-    border-top: none;
-    border-left: none;
-    border-right: none;
-    border-bottom: 1px solid #4A34D4;
-    background-color:whitesmoke;
-    outline: none;
-    margin: 9pt 0 0 0;
-    font-size: 12pt;
-}
-.city{
-    width: 70%;
-    height: 20px;
-    border-top: none;
-    border-left: none;
-    border-right: none;
-    border-bottom: 1px solid #4A34D4;
-    background-color:whitesmoke;
-    outline: none;
-    margin: 9pt 0 0 0;
-    font-size: 12pt;
-}
-.street_number{
-    width: 70%;
-    height: 20px;
-    border-top: none;
-    border-left: none;
-    border-right: none;
-    border-bottom: 1px solid #4A34D4;
-    background-color:whitesmoke;
-    outline: none;
-    margin: 9pt 0 0 0;
-    font-size: 12pt;
-}
-.password{
-    width: 70%;
-    height: 20px;
-    border-top: none;
-    border-left: none;
-    border-right: none;
-    border-bottom: 1px solid #4A34D4;
-    background-color:whitesmoke;
-    outline: none;
-    margin: 9pt 0 11pt 0;
-    font-size: 12pt;
-}
-.button_change{
-    background-color:#4A34D4;
-    color:whitesmoke;
-    border:none;
-    font-size: 13pt;
-    padding: 3pt;
-    width: 30%;
-    height: 28pt;
-    border-radius:25px;
-    outline: none;
-}
-.button_change:hover{
-    background-color:#301ABA;
-}
-.button_change:active{
-    transform: scale(0.98);
-}
+  

@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <title>Help</title>
+        <title>Edit profile</title>
         <link rel="shortcut icon" href="https://sites.saic.edu/sugs/wp-content/uploads/sites/43/2016/01/SITE_IdentityProposal_28July-3-300x300.jpg" />
         <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
@@ -18,14 +18,36 @@
     -->
         <div class="customer_container">
             <div class="left_user_panel" id="left_user_panel">
-                
+                <div class="edit_customer">
+                    <h2 class="edit_customer_header" id="edit_customer_header">Change your personal information</h2>
+                    <input type="text" id="firstname" name="firstname" class="firstname" placeholder="Enter your new firstname"><br>
+                    <input type="text" id="middlename" name="middlename" class="middlename" placeholder="Enter your new middlename(optional)"><br>
+                    <input type="text" id="lastname" name="lastname" class="lastname" placeholder="Enter your new lastname"><br>
+                    <input type="text" id="city" name="city" class="city" placeholder="Enter your new city" required><br>
+                    <input type="text" id="street_number" name="street_number" class="street_number" placeholder="New street and number" required><br>
+                    <input type="email" id="email" name="email" class="email" placeholder="Enter your new email"><br>
+                    <input type="password" id="password" name="password" class="password" placeholder="Enter your new password" >
+                </div>
+                <!--
+                <div class="edit_seller">
+                    <h2 class="edit_seller_header" id="edit_seller_header">Registration for seller</h2>
+                    <input type="text" id="fname_s" name="fname_s" class="fname_s" placeholder="Company name" required><br><br>
+                    <input type="text" id="lname_s" name="lname_s" class="lname_s" placeholder="Full company name(optional)"><br><br>
+                    <input type="text" id="nip" name="nip" class="nip" placeholder="NIP" required><br><br>
+                    <input type="text" id="city" name="city" class="city" placeholder="City" required><br><br>
+                    <input type="text" id="street_number" name="street_number" class="street_number" placeholder="Street and number" required><br><br>
+                    <input type="email" id="email" name="email" placeholder="Enter your current email">
+                    <input type="password" id="password" name="password" placeholder="Enter your new password">
+                </div>
+                -->
+                <button class="button_change" id="button_change" type="submit" onclick="ChangesDone()">Change</button>
             </div>
             <div class="right_user_panel" id="right_user_panel">
                 <img src="https://cdn4.iconfinder.com/data/icons/men-avatars-icons-set-2/256/4-512.png" alt="Your photo" class="user_avatar" id="user_avatar"><br>
                 <button class="shop_button" id="shop_button" onclick="window.location.href='Shop_main.html'">Shop</button>
                 <button class="cart_button" id="cart_button" onclick="window.location.href='Cart.html'"">Cart</button><br>
                 <button class="purchases_button" id="purchases_button">Purchases</button><br>
-                <button class="edit_profile_button" id="edit_profile_button">Edit profile</button><br>
+                <button class="edit_profile_button" id="edit_profile_button" onclick="window.location.href='Edit_profile.html'"">Edit profile</button><br>
                 <button class="help_button" id="help_button" onclick="window.location.href='help.html'">Help</button><br>
                 <button class="mobile_app_button" id="mobile_app_button" onclick="window.location.href='Mobile_app.html'">Mobile App</button>
                 <button class="logout_button" id="logout_button" onclick="Loggingout()">Log-out</button>

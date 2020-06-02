@@ -140,3 +140,8 @@ body{
 .login_button_right:active{
     transform: scale(0.9);
 }
+.bottom_link{
+    color: whitesmoke;
+    margin: 30% 0 0 0;
+    text-align: center;
+}
