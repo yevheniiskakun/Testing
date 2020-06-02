@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Registration</title>
+        <link rel="shortcut icon" href="https://sites.saic.edu/sugs/wp-content/uploads/sites/43/2016/01/SITE_IdentityProposal_28July-3-300x300.jpg" />
+        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+        <link rel="stylesheet" type="text/css" href="Registration.css">
+       <!-- <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">-->
+    </head>
+    <body>
+      <!--
+      <div class="background_theme">
+        <button type="button" class="dark_button" name="dark_button" id="dark_button" onclick="Change_dark_background()">Dark mode</button>
+        <button type="button" class="light_button" name="light_button" id="light_button" onclick="Change_light_background()">Light mode</button>
+      </div>
+    -->
+        <div class="registration">
+            <div class="left_registr_panel" id="left_registr_panel">
+                <form action="/action_page.php">
+                    <h2 class="registration_header_left" id="registration_header_left">Registration for customers</h2>
+                    <input type="text" id="fname" name="fname" class="fname" placeholder="First name" required><br><br>
+                    <input type="text" id="lname" name="lname" class="lname" placeholder="Last name" required><br><br>
+                    <input type="email" id="email" name="email" class="email" placeholder="E-mail" required><br><br>
+                    <input type="text" id="city" name="city" class="city" placeholder="City" required><br><br>
+                    <input type="text" id="street_number" name="street_number" class="street_number" placeholder="Street and number" required><br><br>
+                    <input type="password" id="password" name="password" class="password" placeholder="Password" required><br><br>
+                    <input type="password" id="confirm_password" name="confirm_password" class="confirm_password" placeholder="Confirm"onkeyup="getInputValue_l();" required><br><br>
+                    <button type="submit" class="register_button_left" id="register_button_left" onclick="window.location.href = 'https://google.com';">Register</button>
+                  </form>
+            </div>
+            <div class="right_registr_panel" id="right_registr_panel">
+              <form action="">
+                <h2 class="registration_header_right" id="registration_header_right">Registration for seller</h2>
+                <input type="text" id="fname_s" name="fname_s" class="fname_s" placeholder="Company name" required><br><br>
+                <input type="text" id="lname_s" name="lname_s" class="lname_s" placeholder="Full company name(optional)"><br><br>
+                <input type="text" id="nip" name="nip" class="nip" placeholder="NIP" required><br><br>
+                <input type="text" id="city_s" name="city_s" class="city_s" placeholder="City" required><br><br>
+                <input type="text" id="street_number_s" name="street_number_s" class="street_number_s" placeholder="Street and number" required><br><br>
+                <input type="password" id="password_s" name="password_s" class="password_s" placeholder="Pasword" required><br><br>
+                <input type="password" id="confirm_password_s" name="confirm_password_s" class="confirm_password_s" placeholder="Confirm" onkeyup="getInputValue_r();" required><br><br>
+                <button type="submit" class="register_button_right" id="register_button_right" onclick="window.location.href = 'https://google.com';">Register</button>
+              </form>
+            </div>
+          </div>
+        
+        
+    </body>
+    <script src="Registration.js"></script>
+</html>
